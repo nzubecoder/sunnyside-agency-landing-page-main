@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    color: white;
+}
+.header{
+    background-image: url('images/desktop/image-header.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+ * {
+    box-sizing: border-box;
+ }
+header > h1 {
+    margin-top: 20px;
+}
+.header-arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav{
+    margin-top: 30px;
+}
+
+.nav > ul {
+    display: flex;
+}
+
+.nav > ul > li {
+    padding-right: 20px;
+    list-style: none;
+    
+}
+
+.nav_flex {
+    display: flex;
+    justify-content: space-between;
+} 
+.nav > ul > li > button{
+    border: none;
+    outline: none;
+    border-radius: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.nav > ul > li > button{
+    padding: 1rem 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 10rem;
+    font-family: "fraunces", sans-serif;
+    font-weight: 900;
+}
+.heading-primary{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: "fraunces", sans-serif;
+    color: white;
+    letter-spacing: 1rem; 
+    font-weight: 900;
+}
+
+.section-about_flex{
+    display: flex;
+    
+}
+.section-about_content{
+    padding: 0 10vw;
+    align-self: center;
+    flex: 0 0 50%;
+}
+.section-about_content--text{
+    margin: 2rem 0 2rem 0;
+}
+.section-about-image--photo{
+    width: 100%;
+    display: block;
+
+}
+.heading-secondary{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: "fraunces", sans-serif;
+    line-height: 1;
+    color: black;
+}
+
+/* .left{
+    padding: 160px 80px;
+    width: 52%;
+}
+.right{
+    width: 48%;
+} */
+
+.inner-container {
+    max-width: 50%;
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 80px 0px;
+    /* min-height: 500px; */
+}
+
+.inner-container > div {
+    /* padding: 160px 80px; */
+
+}
+.w-400{
+    width: 90%;
+}
+.section-about_flex{
+    display: flex;
+    
+}
+.section-about_content{
+    padding: 0 10vw;
+    align-self: center;
+    flex: 0 0 50%;
+}
+.section-about_content--text{
+    margin: 2rem 0 2rem 0;
+}
+.section-about-image--photo{
+    width: 100%;
+    display: block;
+
+}
+.heading-secondary{
+    font-size: 2.4rem;
+    font-weight: 900;
+    font-family: "fraunces", sans-serif;
+    line-height: 1;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+}
+.right{
+    padding: 160px 80px;
+    width: 52%;
+    padding-bottom: 0;
+}
+.left{
+    width: 48%;
+}
+.m-30{
+    margin-top: 300px;
+    text-align: center; 
+    
+}
+.m-30w{
+    margin-top: 300px;
+    text-align: center;
+}
+.swift{
+    margin-top: 200px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.box{
+    margin-top: 50px;
+    width: 300PX;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+} 
+
+.box h3{
+        margin-top: 50px;
+}
+.box p{
+    margin-top: 10px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.tutu{
+    display: flex;
+    justify-content: center;
+}
+.tutu img{
+    height: 100%;
+    width: 25%;
+    flex: 1;
+}
+.head{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: darkcyan;
+    padding: 180px;
+    font-size: 40px;
+    flex-direction: column;
+}
+.ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+}
+
+.ul li {
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    color: rgb(8, 20, 20);
+}
+
+.img{
+    margin-top: 70px;
+    font-size: 30px;
+    justify-content: space-between;
+    
+}
+/* MOBILE QUERIES */
+
+@media screen and (max-width: 741px){
+.heading-secondary{
+    font-size: 1rem;
+    font-weight: 800;
+}
+    
+
+
+
+
+
+}
